@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import SolItem from "../SolItem";
+import './style.css'
 
 class SolList extends Component {
 
@@ -29,11 +30,11 @@ class SolList extends Component {
 
   render() {
     return (
-      <ul>
+      <ul className="sol-list">
         {this.state.sols.map((sol, index) => {
           return (
             <li key={index}>
-              <SolItem name={sol.name} average={sol.average} />
+              <SolItem name={sol.name} average={sol.average} selectSol={this.props.selectSol.bind(this)}/>
             </li>
           );
         })}

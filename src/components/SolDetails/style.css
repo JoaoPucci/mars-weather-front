@@ -1,0 +1,15 @@
+.sol-details {
+  flex-grow: 3;
+  list-style-type: none;
+  padding: 32px;
+}
+
+.sol-details h1 {
+  color: royalblue;
+  font-size: x-large;
+  margin-bottom: 8px;
+}
+
+.sol-details h2 {
+  font-size: larger;
+}

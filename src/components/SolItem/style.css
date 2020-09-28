@@ -3,8 +3,15 @@
   transition: 0.3s;
   border-radius: 5px;
   padding: 16px;
+  margin: 8px;
 }
 
-h1.sol-item {
+.sol-item:hover {
+  cursor: pointer;
+  background-color: cadetblue;
+}
+
+.sol-item h1 {
   font-size: larger;
+  margin-bottom: 8px;
 }
